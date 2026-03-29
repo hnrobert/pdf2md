@@ -3,7 +3,7 @@ requires = ["setuptools>=68", "wheel"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "pdf2md"
+name = "pdf2dotmd"
 version = "0.0.1"
 description = "A Python tool for converting PDF files to Markdown"
 readme = "README.md"
@@ -26,11 +26,11 @@ classifiers = [
 dependencies = ["pdfplumber>=0.11.0"]
 
 [project.urls]
-Homepage = "https://github.com/HNRobert/pdf2md"
-Repository = "https://github.com/HNRobert/pdf2md"
+Homepage = "https://github.com/HNRobert/pdf2dotmd"
+Repository = "https://github.com/HNRobert/pdf2dotmd"
 
 [project.scripts]
-pdf2md = "pdf2md.cli:main"
+pdf2dotmd = "pdf2dotmd.cli:main"
 
 [tool.setuptools.packages.find]
-include = ["pdf2md*"]
+include = ["pdf2dotmd*"]

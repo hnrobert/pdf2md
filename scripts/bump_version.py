@@ -46,7 +46,7 @@ def main() -> int:
         return 1
 
     root = pathlib.Path(__file__).resolve().parent.parent
-    init_file = root / "pdf2md" / "__init__.py"
+    init_file = root / "pdf2dotmd" / "__init__.py"
     pyproject_file = root / "pyproject.toml"
 
     init_content = init_file.read_text(encoding="utf-8")

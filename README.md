@@ -1,4 +1,4 @@
-# pdf2md
+# pdf2dotmd
 
 A Python CLI tool that converts PDF files to Markdown format with intelligent layout analysis.
 
@@ -17,30 +17,30 @@ A Python CLI tool that converts PDF files to Markdown format with intelligent la
 ## Installation
 
 ```bash
-pip install pdf2md
+pip install pdf2dotmd
 ```
 
 ## Usage
 
 ```bash
 # Output to stdout
-pdf2md input.pdf
+pdf2dotmd input.pdf
 
 # Output to file
-pdf2md input.pdf -o output.md
+pdf2dotmd input.pdf -o output.md
 
 # Skip images, output single Markdown file
-pdf2md input.pdf --ignore-images
+pdf2dotmd input.pdf --ignore-images
 
 # Batch conversion
-pdf2md *.pdf -o output_dir/
+pdf2dotmd *.pdf -o output_dir/
 
 # Convert only specific pages
-pdf2md input.pdf -p 1-3
-pdf2md input.pdf -p 1-5,8,10-12
+pdf2dotmd input.pdf -p 1-3
+pdf2dotmd input.pdf -p 1-5,8,10-12
 
 # Verbose logging
-pdf2md input.pdf -v
+pdf2dotmd input.pdf -v
 ```
 
 ## How It Works
